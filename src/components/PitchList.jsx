@@ -4,18 +4,18 @@ function PitchList(props) {
   return (
     <tr>
       <td>{props.id}</td>
-      <td>{props.title}</td>
-      <td>{props.player}</td>
-      <td>{props.length}</td>
+      <td>{props.name}</td>
+      <td>{props.description}</td>
+      <td>{props.hours_price}</td>
     </tr>
   );
 }
 
 PitchList.propTypes = {
   id: PropTypes.number,
-  title: PropTypes.string,
-  player: PropTypes.number,
-  length: PropTypes.number
+  name: PropTypes.string,
+  description: PropTypes.number,
+  hours_price: PropTypes.number
 };
 
 export default PitchList;
