@@ -23,7 +23,7 @@ function ContentRowTop() {
                 <UserInDB/>
             </div>
         </div>
-    )
+    );
 }
 
 export default ContentRowTop;

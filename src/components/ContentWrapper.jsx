@@ -1,12 +1,11 @@
 import TopBar from "./TopBar";
 import ContentRowTop from "./ContentRowTop";
-import Footer from "./Footer";
-import Pitch from "./pitch";
+import Pitch from "./Pitch";
+
 
 function ContentWrapper() {
-    return (
-        <div id="content-wrapper" className="d-flex flex-column">
-
+	return (
+		<>
 			{/* <!-- Main Content --> */}
 			<div id="content">
 
@@ -17,15 +16,13 @@ function ContentWrapper() {
 				{/* <!-- Content Row Top --> */}
 				<ContentRowTop />
 				{/* <!--End Content Row Top--> */}
+				<Pitch/>
 			</div>
 			{/* <!-- End of MainContent --> */}
-			<Pitch/>
-			{/* <!-- Footer --> */}
-			<Footer />
-			{/* <!-- End of Footer --> */}
+		</>
 
-		</div>
-    )
+
+	);
 }
 
 export default ContentWrapper;
