@@ -19,7 +19,7 @@ function Pitch() {
     return (
         <>
             {/*<!-- MOVIES LIST -->*/}
-            <h1 className="h3 mb-2 text-gray-800 ">All las canchas in the Database</h1>
+            <h1 className="h3 mb-2 text-gray-800 ">All Pitches in the Database</h1>
 
             {/*<!-- DataTales Example -->*/}
             <div className="card shadow mb-4">
